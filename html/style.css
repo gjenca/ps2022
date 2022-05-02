@@ -1,0 +1,17 @@
+
+ul li {
+	border-color:red;
+	border-style:dotted;
+	border-width:2px;
+	padding:0.5em;
+	margin:0.25em;
+}
+ul li:hover {
+	background-color:#afa;
+}
+
+table.important th {
+	background-color:red;
+	color:white;
+}
+
