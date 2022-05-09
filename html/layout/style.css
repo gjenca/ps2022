@@ -1,0 +1,71 @@
+* {
+	color:black;
+}
+
+html {
+	background-color:#DDD;
+}
+
+#container {
+	background-color:white;
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:1em;
+}
+
+header {
+	background-color:yellow;
+	padding: 1em;
+}
+
+form {	float:right;
+	width:20em;
+}
+
+nav {
+	border:2px dotted black;
+	background-color:#dfd;
+}
+
+nav li {
+	border:2px outset black;
+	display:inline;
+	padding:0.5em;
+}
+
+nav li:hover {
+	background-color:#afa;
+}
+
+nav li a {
+	text-decoration:none;
+}
+
+article {
+	padding:1em;
+}
+
+article .nadpis {
+	font-family:"Ariel","Helvetica",sans-serif;
+}
+
+article .autor {
+	font-style:italic;
+}
+
+section#textpoviedky {
+	text-align:justify;
+}
+
+footer {
+	background-color:yellow;
+	border:2px dotted black;
+	text-align:right;
+	padding:0.5em;
+}
+
+section#textpoviedky p:first-child:first-letter {
+	font-size:200%;
+	color:red;
+}
