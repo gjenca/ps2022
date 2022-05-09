@@ -1,4 +1,6 @@
-
+* {
+	color:blue;
+}
 ul li {
 	border-color:red;
 	border-style:dotted;
